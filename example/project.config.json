@@ -1,7 +1,8 @@
 {
-  "description": "小程序运行PIXI webgl适配版例子-By qiaoce",
+  "description": "项目配置文件，详见文档：https://developers.weixin.qq.com/miniprogram/dev/devtools/projectconfig.html",
   "packOptions": {
-    "ignore": []
+    "ignore": [],
+    "include": []
   },
   "setting": {
     "urlCheck": false,
@@ -35,41 +36,34 @@
     "packNpmManually": false,
     "packNpmRelationList": [],
     "minifyWXSS": true,
-    "minifyWXML": true
+    "minifyWXML": true,
+    "lazyloadPlaceholderEnable": false,
+    "preloadBackgroundData": false,
+    "useStaticServer": true,
+    "showES6CompileOption": false,
+    "disableUseStrict": false,
+    "useCompilerPlugins": false,
+    "remoteDebugLogEnable": false,
+    "prefetch": false
   },
   "compileType": "miniprogram",
   "libVersion": "2.16.1",
-  "appid": "wx7b77cc7f7cc54bbd",
+  "appid": "wx88fd2942a2fc5a90",
   "projectname": "test_webgl2",
-  "debugOptions": {
-    "hidedInDevtools": []
-  },
-  "isGameTourist": false,
   "simulatorType": "wechat",
   "simulatorPluginLibVersion": {},
+  "editorSetting": {
+    "tabIndent": "insertSpaces",
+    "tabSize": 2
+  },
+  "qqappid": "1108100302",
   "condition": {
-    "search": {
-      "list": []
-    },
-    "conversation": {
-      "list": []
-    },
-    "plugin": {
-      "list": []
-    },
-    "game": {
-      "currentL": -1,
-      "list": []
-    },
-    "gamePlugin": {
-      "list": []
-    },
     "miniprogram": {
       "list": [
         {
-          "id": -1,
           "name": "pages/index/index",
           "pathName": "pages/index/index",
+          "query": "",
           "scene": 1008
         }
       ]
